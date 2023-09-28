@@ -63,7 +63,7 @@ font_path = "./AloneXMusic/assets/Champu.ttf"
 champu = "./AloneXMusic/assets/Vampire Wars.ttf"
 WELCOME_TEXT = """
 Wᴇʟᴄᴏᴍᴇ Tᴏ {chat_title}
-Nᴀᴍᴇ {mention}
+Nᴀᴍᴇ {name}
 Iᴅ {user_id} 
 Usᴇʀɴᴀᴍᴇ @{username}
 
@@ -97,7 +97,7 @@ async def _greet(client, message):
             profile_path=profile,
         )
         welcome_caption = WELCOME_TEXT.format(
-            chat_title=chat.title, name=mention, username=username, user_id=user_id
+            chat_title=chat.title, name=name, username=username, user_id=user_id
         )
         msg = await app.send_photo(
             chat_id=chat.id, photo=welcome_photo, caption=welcome_caption
