@@ -62,9 +62,12 @@ bg_path = "./AloneXMusic/assets/thumbnail.png"
 font_path = "./AloneXMusic/assets/Champu.ttf"
 champu = "./AloneXMusic/assets/Vampire Wars.ttf"
 WELCOME_TEXT = """
-ᴡᴇʟᴄᴏᴍᴇ {name}
+Wᴇʟᴄᴏᴍᴇ Tᴏ {chat_title}
+Nᴀᴍᴇ {mention}
+Iᴅ {id} 
+Usᴇʀɴᴀᴍᴇ @{username}
 
-ᴛʜᴀɴᴋs ғᴏʀ ᴊᴏɪɴɪɴɢ ᴏᴜʀ {chat_title}!
+Tʜᴀɴᴋs Fᴏʀ Jᴏɪɴɪɴɢ Oᴜʀ {chat_title}!
 """
 
 
