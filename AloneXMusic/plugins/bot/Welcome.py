@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from pyrogram import Client, filters
-from AnonXMusic import app
+from AloneXMusic import app
 
 
 get_font = lambda font_size, font_path: ImageFont.truetype(font_path, font_size)
@@ -58,9 +58,9 @@ async def get_welcome_img(
     return path
 
 
-bg_path = "./AnonXMusic/assets/thumbnail.png"
-font_path = "./AnonXMusic/assets/Champu.ttf"
-champu = "./AnonXMusic/assets/Vampire Wars.ttf"
+bg_path = "./AloneXMusic/assets/thumbnail.png"
+font_path = "./AloneXMusic/assets/Champu.ttf"
+champu = "./AloneXMusic/assets/Vampire Wars.ttf"
 WELCOME_TEXT = """
 ᴡᴇʟᴄᴏᴍᴇ {name}
 
